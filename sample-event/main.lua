@@ -4,11 +4,6 @@
 --
 -----------------------------------------------------------------------------------------
 
-local physics = require("physics")
-physics.setDrawMode("normal")
-physics.setGravity( 0, 90 )
-physics.start()
-
 -- Display Size
 local dispWidth = display.contentWidth
 local dispHeight = display.contentHeight
